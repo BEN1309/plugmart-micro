@@ -1,0 +1,52 @@
+===============================
+PLUGMART MICROSERVICES PROJECT
+===============================
+
+Developer: Arnab Bera
+Project Type: Spring Boot Microservices
+Java Version: 17
+Spring Boot Version: 3.3.6
+
+--------------------------------
+COMPLETED MODULES
+--------------------------------
+
+✔ Eureka Server (Service Registry)
+✔ API Gateway
+✔ Product Service (MongoDB)
+✔ Order Service (MySQL)
+✔ Inventory Service
+✔ WebClient Inter-service Communication
+✔ Circuit Breaker (Resilience4j)
+✔ Retry Mechanism
+✔ TimeLimiter (Timeout Handling)
+✔ Keycloak OAuth2 Security
+✔ Service Registration with Eureka
+✔ Health Monitoring (Actuator)
+
+--------------------------------
+TESTED FEATURES
+--------------------------------
+
+✔ Inventory delay simulation (Thread.sleep)
+✔ Circuit Breaker OPEN state
+✔ Retry attempts working
+✔ Timeout working
+✔ Fallback returning 503
+✔ JWT secured endpoints
+
+--------------------------------
+NEXT DEVELOPMENT PLAN
+--------------------------------
+
+- Dockerize all services
+- Add centralized logging
+- Add distributed tracing
+- Improve exception handling
+- Write Unit Tests
+- Add Swagger documentation
+
+--------------------------------
+LAST UPDATED:
+16-02-2026
+--------------------------------
