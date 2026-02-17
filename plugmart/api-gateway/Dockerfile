@@ -1,6 +1,4 @@
-FROM openjdk:17
-
-WORKDIR /app
+FROM eclipse-temurin:17
 
 COPY target/*.jar app.jar
 

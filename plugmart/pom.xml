@@ -54,7 +54,7 @@
 			
         </dependencies>
     </dependencyManagement>
-
+	
     <!-- Modules -->
     <modules>
         <module>inventory-service</module>
@@ -64,5 +64,28 @@
         <module>api-gateway</module>
         <module>notification-service</module>
     </modules>
+	
+	<build>
+    <pluginManagement>
+        <plugins>
 
+            <!-- Spring Boot Plugin -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- JIB Plugin -->
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.3</version>
+            </plugin>
+
+        </plugins>
+    </pluginManagement>
+</build>
+
+
+	
 </project>
