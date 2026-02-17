@@ -62,6 +62,7 @@
         <module>product-service</module>
         <module>discovery-server</module>
         <module>api-gatway</module>
+        <module>notification-service</module>
     </modules>
 
 </project>
