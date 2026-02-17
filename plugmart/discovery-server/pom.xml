@@ -26,6 +26,24 @@
         <artifactId>spring-boot-starter-security</artifactId>
     </dependency>
     
+	<!-- Actuator -->
+	<dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-actuator</artifactId>
+	</dependency>
+
+	<!-- Micrometer Tracing (OpenTelemetry bridge) -->
+	<dependency>
+    	<groupId>io.micrometer</groupId>
+    	<artifactId>micrometer-tracing-bridge-otel</artifactId>
+	</dependency>
+
+	<!-- Zipkin Exporter -->
+	<dependency>
+    	<groupId>io.opentelemetry</groupId>
+    	<artifactId>opentelemetry-exporter-zipkin</artifactId>
+	</dependency>
+    
   </dependencies>
 
 </project>

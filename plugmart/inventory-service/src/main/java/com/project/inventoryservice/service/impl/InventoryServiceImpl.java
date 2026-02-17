@@ -11,11 +11,11 @@ import com.project.inventoryservice.service.InventoryService;
 
 import lombok.RequiredArgsConstructor;
 //import lombok.SneakyThrows;
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
 
 @Service
 @RequiredArgsConstructor
-@Slf4j
+//@Slf4j
 public class InventoryServiceImpl implements InventoryService {
 
 	private final InventoryRepository inventoryRepository;
@@ -25,9 +25,9 @@ public class InventoryServiceImpl implements InventoryService {
 	//@SneakyThrows
 	public List<InventoryResponse> isInStock(List<String> skuCode) {
 		
-		log.info("Wait Started");
+		//log.info("Wait Started");
 		//Thread.sleep(10000);
-		log.info("Wait Ended");
+		//log.info("Wait Ended");
 		
 		return inventoryRepository.findBySkuCodeIn(skuCode)
                 .stream()

@@ -65,7 +65,25 @@
       		<groupId>org.springframework.cloud</groupId>
       		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
     	</dependency>
+    
+		<!-- Actuator -->
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 
+		<!-- Micrometer Tracing (OpenTelemetry bridge) -->
+		<dependency>
+    		<groupId>io.micrometer</groupId>
+    		<artifactId>micrometer-tracing-bridge-otel</artifactId>
+		</dependency>
+
+		<!-- Zipkin Reporter -->
+		<dependency>
+    		<groupId>io.zipkin.reporter2</groupId>
+    		<artifactId>zipkin-reporter-brave</artifactId>
+		</dependency>
+    
     </dependencies>
 
     <build>
