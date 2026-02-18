@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 public class NotificationServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NotificationServiceApplication.class, args);
-		System.out.println("NOTIFICATION-SERVICE started at PORT : 8085");
+		System.out.println("NOTIFICATION-SERVICE started at PORT : 8185");
 	}
 
 	@KafkaListener(topics = "notificationTopic")

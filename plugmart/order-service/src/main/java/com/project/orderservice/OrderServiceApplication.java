@@ -10,7 +10,7 @@ public class OrderServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OrderServiceApplication.class, args);
-		System.out.println("ORDER-SERVICE started at PORT : 8182");
+		System.out.println("ORDER-SERVICE started at PORT : 8183");
 	}
 
 }
